@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2021-01-11T19:42:14.044Z" agent="5.0 (Windows)" version="14.1.9" etag="gC35LcHrI_RjUs-n76CT" type="github"><diagram id="-8Po2za0VV15nlukF8d9">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-11T19:53:54.927Z" agent="5.0 (Windows)" etag="HMaG2hHsavPtOvc3E0Xi" version="14.1.9" type="github">
+  <diagram id="-8Po2za0VV15nlukF8d9" name="Page-1">
+    <mxGraphModel dx="1079" dy="2859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="I9JZfjE0defXv6euggS9-43" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-1280" width="770" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="I9JZfjE0defXv6euggS9-44" value="Home" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="I9JZfjE0defXv6euggS9-43">
+          <mxGeometry x="60" y="12" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="I9JZfjE0defXv6euggS9-45" value="https://www.khanhthai.com" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="I9JZfjE0defXv6euggS9-43">
+          <mxGeometry x="130" y="60" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="I9JZfjE0defXv6euggS9-47" value="Linode Cloud Hosting" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/WebHosting.svg;" vertex="1" parent="1">
+          <mxGeometry x="390" y="-1600" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="I9JZfjE0defXv6euggS9-51" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="I9JZfjE0defXv6euggS9-52" target="I9JZfjE0defXv6euggS9-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="-1310" as="sourcePoint" />
+            <mxPoint x="425" y="-1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I9JZfjE0defXv6euggS9-52" value="&lt;div&gt;Google Domains&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/CustomDomain.svg;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-1430" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="I9JZfjE0defXv6euggS9-53" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="I9JZfjE0defXv6euggS9-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="-1490" as="sourcePoint" />
+            <mxPoint x="425" y="-1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
