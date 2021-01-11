@@ -1,2 +1,2 @@
 # porfolio
-my persona website
+my personal website
