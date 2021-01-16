@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-16T06:54:23.394Z" agent="5.0 (Windows)" etag="57lSjK_NSRXVRALLq52L" version="14.2.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-01-16T07:24:45.505Z" agent="5.0 (Windows)" etag="WisZhqwNSjRCi61D1jk4" version="14.2.2" type="github" pages="2">
   <diagram id="-8Po2za0VV15nlukF8d9" name="Page-1">
-    <mxGraphModel dx="2212" dy="2859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2078" dy="2859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1206,7 +1206,7 @@
         <mxCell id="fWIJOQYdFfIRZjL5YDJD-88" value="&lt;div&gt;&lt;b&gt;WE DO NOT INTERFERE with the event object bubbling&lt;/b&gt;.&amp;nbsp; It is bad practice.&amp;nbsp; Weird things can happen&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;What we will do instead is find out where the element was clicked.&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;if the element is inside the React component, run our code accordingly.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;If the element clicked is out side our React component, run our code accordingly &lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;strokeColor=#b46504;fillColor=#FFE6CC;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
           <mxGeometry x="2970" y="210" width="450" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="fWIJOQYdFfIRZjL5YDJD-89" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The browser event object will provide us what element was clicked by the user (&lt;b&gt;event.target&lt;/b&gt;).&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;We then check if that element inside our React component or not.&amp;nbsp; We simply use &lt;b&gt;useRef &lt;/b&gt;which will provide us with the &lt;b&gt;ref&lt;/b&gt; to an element inside our component.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;strokeColor=#b46504;fillColor=#FFE6CC;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-89" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The browser event object will provide us what element was clicked by the user (&lt;b&gt;event.target&lt;/b&gt;).&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;We then check if that element inside our React component or not.&amp;nbsp; We simply use &lt;b&gt;useRef &lt;/b&gt;which will provide us with the &lt;b&gt;ref&lt;/b&gt; to an element inside our component.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;const ref = useRef();&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ref.current to get current ref&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;strokeColor=#b46504;fillColor=#FFE6CC;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
           <mxGeometry x="2970" y="445" width="450" height="155" as="geometry" />
         </mxCell>
       </root>
