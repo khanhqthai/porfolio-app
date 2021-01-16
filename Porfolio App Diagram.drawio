@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-16T05:38:21.381Z" agent="5.0 (Windows)" etag="BRKz-voUCzPrjE7WfnPE" version="14.2.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-01-16T06:54:23.394Z" agent="5.0 (Windows)" etag="57lSjK_NSRXVRALLq52L" version="14.2.2" type="github" pages="2">
   <diagram id="-8Po2za0VV15nlukF8d9" name="Page-1">
-    <mxGraphModel dx="2272" dy="2991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2212" dy="2859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -878,7 +878,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CAw_Ef0bv8dRNk800ER1" name="Event Bubbling">
-    <mxGraphModel dx="813" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1017" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="hRZIZ2FrCc08zV_Wy1sJ-0" />
         <mxCell id="hRZIZ2FrCc08zV_Wy1sJ-1" parent="hRZIZ2FrCc08zV_Wy1sJ-0" />
@@ -902,15 +902,6 @@
         </mxCell>
         <mxCell id="wEEE7ebkRptLThCEebAS-6" value="div.ui.selection" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
           <mxGeometry x="290" y="400" width="230" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="wEEE7ebkRptLThCEebAS-11" value="" style="group" vertex="1" connectable="0" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
-          <mxGeometry x="710" y="360" width="170" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="wEEE7ebkRptLThCEebAS-8" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;align=left;flipV=1;flipH=1;" vertex="1" parent="wEEE7ebkRptLThCEebAS-11">
-          <mxGeometry width="21.25" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="wEEE7ebkRptLThCEebAS-9" value="&lt;div align=&quot;left&quot;&gt;Dropdown component can only set up event handlers easily(using JSX props) on elements it creates&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="wEEE7ebkRptLThCEebAS-11">
-          <mxGeometry x="31.875" width="138.125" height="200" as="geometry" />
         </mxCell>
         <mxCell id="wEEE7ebkRptLThCEebAS-12" value="" style="group" vertex="1" connectable="0" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
           <mxGeometry x="510" y="200" width="160" height="120" as="geometry" />
@@ -970,19 +961,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vu3ahwQB2JkFccTWUaS8-23" value="event&amp;nbsp; bubbling&amp;nbsp; flow" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
-          <mxGeometry x="145" y="620" width="165" height="20" as="geometry" />
+          <mxGeometry x="402.5" y="590" width="165" height="20" as="geometry" />
         </mxCell>
         <mxCell id="vu3ahwQB2JkFccTWUaS8-32" value="React does processing on the event object, and then&amp;nbsp; provides an event object to our event handlers function." style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b46504;fillColor=#FFE6CC;align=left;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
           <mxGeometry x="325" y="760" width="345" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vu3ahwQB2JkFccTWUaS8-33" value="&lt;div&gt;&lt;b&gt;KEY POINT&lt;/b&gt; - &lt;b&gt;the event object however does stop there&lt;/b&gt;. &lt;br&gt;&lt;/div&gt;&lt;div&gt; It travels up the DOM&amp;nbsp; tree hierarchy, and while traveling up &lt;br&gt;&lt;/div&gt;&lt;div&gt;if there are any&amp;nbsp; event handlers, it will automatically invoke it&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b46504;fillColor=#FFE6CC;align=left;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+        <mxCell id="vu3ahwQB2JkFccTWUaS8-33" value="&lt;div&gt;&lt;b&gt;KEY POINT&lt;/b&gt; - &lt;b&gt;the event object however does stop there&lt;/b&gt;. &lt;br&gt;&lt;/div&gt;&lt;div&gt; It travels up to the parent element, and while traveling &lt;br&gt;&lt;/div&gt;&lt;div&gt;if there are any&amp;nbsp; event handlers, it will automatically invoke it&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b46504;fillColor=#FFE6CC;align=left;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
           <mxGeometry x="325" y="830" width="345" height="80" as="geometry" />
         </mxCell>
         <mxCell id="vu3ahwQB2JkFccTWUaS8-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1" source="vu3ahwQB2JkFccTWUaS8-36" target="vu3ahwQB2JkFccTWUaS8-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vu3ahwQB2JkFccTWUaS8-36" value="&lt;div align=&quot;left&quot;&gt;The event object describes information about the click &lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;such which element was clicked.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
-          <mxGeometry x="740" y="660" width="200" height="50" as="geometry" />
+        <mxCell id="vu3ahwQB2JkFccTWUaS8-36" value="&lt;div align=&quot;left&quot;&gt;The event object describes information about the click &lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;such which element was clicked, mouse position...etc&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="700" y="660" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="vu3ahwQB2JkFccTWUaS8-43" value="" style="endArrow=classic;html=1;exitX=0.374;exitY=-0.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1" source="wEEE7ebkRptLThCEebAS-23">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1004,6 +995,219 @@
             <mxPoint x="590" y="600" as="sourcePoint" />
             <mxPoint x="640" y="570" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-0" value="Body" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="1110" y="515" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-1" value="div#root" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="1120" y="555" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-2" value="div" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="1130" y="595" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-3" value="Dropdown(React Component)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="1140" y="635" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-4" value="div.ui.form" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="1150" y="675" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-5" value="div.ui.selection" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="1160" y="715" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-8" value="div.ui.menu" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="1170" y="755" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-9" value="div.item" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="1180" y="795" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-11" value="&lt;div&gt;1&lt;br&gt;&lt;/div&gt;&lt;div&gt;onClick&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="1290" y="515" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-12" value="2 onClick" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="1340" y="795" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-14" value="&lt;div align=&quot;center&quot;&gt;&lt;b&gt;Event&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="1410" y="805" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wEEE7ebkRptLThCEebAS-8" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;align=left;flipV=1;flipH=0;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="210" y="355" width="21.25" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="wEEE7ebkRptLThCEebAS-9" value="&lt;div align=&quot;left&quot;&gt;Dropdown component can only set up event handlers easily(using JSX props) on elements it creates&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="71.875" y="360" width="138.125" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-18" value="Html" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="1090" y="475" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1" source="fWIJOQYdFfIRZjL5YDJD-19" target="fWIJOQYdFfIRZjL5YDJD-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-19" value="click" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="1480" y="810" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-21" value="3&lt;br&gt;&lt;div&gt;onClick&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="1340" y="715" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-22" value="Manual listeners will take priority over React component event listeners&lt;br&gt;&lt;br&gt;&lt;br&gt;Inside React components the child will fire first then parents." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="1450" y="450" width="240" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-23" value="" style="group" vertex="1" connectable="0" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="1090" y="160" width="510" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="vu3ahwQB2JkFccTWUaS8-49" value="The Dropdown needs to detect a click&amp;nbsp; on any element besides one it created " style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="fWIJOQYdFfIRZjL5YDJD-23">
+          <mxGeometry width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vu3ahwQB2JkFccTWUaS8-50" value="The Dropdown has a hard time setting up event handlers on elements that it does not create" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="fWIJOQYdFfIRZjL5YDJD-23">
+          <mxGeometry y="60" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vu3ahwQB2JkFccTWUaS8-51" value="event bubbling is a thing" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="fWIJOQYdFfIRZjL5YDJD-23">
+          <mxGeometry y="120" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vu3ahwQB2JkFccTWUaS8-53" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;align=center;flipV=1;flipH=1;" vertex="1" parent="fWIJOQYdFfIRZjL5YDJD-23">
+          <mxGeometry x="300" y="10" width="20" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="vu3ahwQB2JkFccTWUaS8-54" value="&lt;div&gt;&lt;b&gt;The Dropdown can set up a manual listener(without React) on the body element.&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;A click on any element will bubble up to the body&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fWIJOQYdFfIRZjL5YDJD-23">
+          <mxGeometry x="320" y="10" width="190" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="vu3ahwQB2JkFccTWUaS8-57" value="Possible solution" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="fWIJOQYdFfIRZjL5YDJD-23">
+          <mxGeometry x="330" y="5" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-24" value="NOTE:&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Event bubbling order when we add manual listeners&lt;br&gt;&lt;br&gt;This is an issue we will have to be mindfull of" style="text;html=1;strokeColor=#A50040;fillColor=#d80073;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="1085" y="410" width="595" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-28" value="What we know so far" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="1080" y="110" width="450" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-46" value="Body" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="1940" y="475" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-47" value="div#root" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="1950" y="515" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-48" value="div" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="1960" y="555" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-49" value="Dropdown(React Component)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="1970" y="595" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-50" value="div.ui.form" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="1980" y="635" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-51" value="div.ui.selection" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="1990" y="675" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-52" value="div.ui.menu" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="2000" y="715" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-53" value="div.item" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="2010" y="755" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-54" value="&lt;div&gt;onClick&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="2120" y="475" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-55" value="onClick" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="2170" y="755" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-56" value="&lt;div align=&quot;center&quot;&gt;&lt;b&gt;Event&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="2240" y="765" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-57" value="Html" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="1920" y="435" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1" source="fWIJOQYdFfIRZjL5YDJD-59" target="fWIJOQYdFfIRZjL5YDJD-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-59" value="click" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="2310" y="770" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-60" value="onClick" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="2170" y="675" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1" source="fWIJOQYdFfIRZjL5YDJD-63" target="fWIJOQYdFfIRZjL5YDJD-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-63" value="&lt;div&gt;&lt;b&gt;Scenario #1&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;User clicks on an element that is created by the Dropdown component" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b46504;fillColor=#FFE6CC;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="1920" y="205" width="345" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-64" value="" style="shape=flexArrow;endArrow=classic;html=1;width=146;endSize=21;" edge="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="930" y="455" as="sourcePoint" />
+            <mxPoint x="1020" y="454.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-65" value="" style="shape=flexArrow;endArrow=classic;html=1;width=146;endSize=21;" edge="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="930" y="455" as="sourcePoint" />
+            <mxPoint x="1020" y="454.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-66" value="" style="shape=flexArrow;endArrow=classic;html=1;width=146;endSize=21;" edge="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1770" y="454.67" as="sourcePoint" />
+            <mxPoint x="1860" y="454.17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-67" value="if a user clicks on one of those elements, &lt;b&gt;then we don&#39;t want the body event listener to do anything&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b46504;fillColor=#FFE6CC;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="1920" y="305" width="345" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-69" value="Body" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="2520" y="490" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-70" value="div#root" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="2530" y="530" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-71" value="div" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="2540" y="570" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-72" value="Dropdown(React Component)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="2550" y="610" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-73" value="div.ui.form" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="2560" y="650" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-74" value="div.ui.selection" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="2570" y="690" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-75" value="div.ui.menu" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="2580" y="730" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-76" value="div.item" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="2590" y="770" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-77" value="&lt;div&gt;onClick&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="2700" y="490" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-79" value="&lt;div align=&quot;center&quot;&gt;&lt;b&gt;Event&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="2720" y="575" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-80" value="Html" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="2500" y="450" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1" source="fWIJOQYdFfIRZjL5YDJD-82" target="fWIJOQYdFfIRZjL5YDJD-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-82" value="click" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="2790" y="580" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1" source="fWIJOQYdFfIRZjL5YDJD-85" target="fWIJOQYdFfIRZjL5YDJD-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-85" value="&lt;div&gt;&lt;b&gt;Scenario #2&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;User clicks on an element that is&lt;b&gt; are not created by the Dropdown&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b46504;fillColor=#FFE6CC;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="2500" y="220" width="345" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-86" value="if a user clicks on one of these elements, &lt;b&gt;then we want the body event listener to close the dropdown&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b46504;fillColor=#FFE6CC;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="2500" y="320" width="345" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-87" value="" style="shape=flexArrow;endArrow=classic;html=1;width=146;endSize=21;" edge="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2340" y="454.9100000000001" as="sourcePoint" />
+            <mxPoint x="2430" y="454.4100000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-88" value="&lt;div&gt;&lt;b&gt;WE DO NOT INTERFERE with the event object bubbling&lt;/b&gt;.&amp;nbsp; It is bad practice.&amp;nbsp; Weird things can happen&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;What we will do instead is find out where the element was clicked.&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;if the element is inside the React component, run our code accordingly.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;If the element clicked is out side our React component, run our code accordingly &lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;strokeColor=#b46504;fillColor=#FFE6CC;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="2970" y="210" width="450" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="fWIJOQYdFfIRZjL5YDJD-89" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The browser event object will provide us what element was clicked by the user (&lt;b&gt;event.target&lt;/b&gt;).&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;We then check if that element inside our React component or not.&amp;nbsp; We simply use &lt;b&gt;useRef &lt;/b&gt;which will provide us with the &lt;b&gt;ref&lt;/b&gt; to an element inside our component.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;strokeColor=#b46504;fillColor=#FFE6CC;" vertex="1" parent="hRZIZ2FrCc08zV_Wy1sJ-1">
+          <mxGeometry x="2970" y="445" width="450" height="155" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
