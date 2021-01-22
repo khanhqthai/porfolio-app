@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-21T23:09:23.404Z" agent="5.0 (Windows)" etag="J4Tq_O37UONNFILdWbp2" version="14.2.5" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-01-22T05:38:02.829Z" agent="5.0 (Windows)" etag="RjVme5g97g_4WWhnwlCW" version="14.2.5" type="github" pages="8">
   <diagram id="-8Po2za0VV15nlukF8d9" name="Page-1">
     <mxGraphModel dx="2272" dy="2991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2168,7 +2168,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="EelrbuOWvnq0HwcqArGe" name="Redux">
-    <mxGraphModel dx="3531" dy="3846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4581" dy="4430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="swDkds0ZvY3LZWQCDxIj-0" />
         <mxCell id="swDkds0ZvY3LZWQCDxIj-1" parent="swDkds0ZvY3LZWQCDxIj-0" />
