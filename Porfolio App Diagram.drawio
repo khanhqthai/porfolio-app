@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-04T20:33:47.076Z" agent="5.0 (Windows)" etag="yQRiMgUcYjSE_-4J81rD" version="14.2.7" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-02-04T20:50:11.533Z" agent="5.0 (Windows)" etag="kcRZowqUClgomysNuuQ5" version="14.2.7" type="github" pages="9">
   <diagram id="-8Po2za0VV15nlukF8d9" name="Page-1">
     <mxGraphModel dx="2272" dy="2991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -4492,6 +4492,54 @@
             <mxPoint x="2070" y="290" as="sourcePoint" />
             <mxPoint x="2160" y="240" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Yw_AFh3IuJYw-cHhOf3B-24" value="localhost:3000/posts/5" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="wpeGKx0uoAakzUZMrnBV-1">
+          <mxGeometry x="2530" y="261.25" width="130" height="17.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Yw_AFh3IuJYw-cHhOf3B-25" value="localhost:3000/pageone" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="wpeGKx0uoAakzUZMrnBV-1">
+          <mxGeometry x="2530" y="243.75" width="130" height="17.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Yw_AFh3IuJYw-cHhOf3B-26" value="localhost:3000" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="wpeGKx0uoAakzUZMrnBV-1">
+          <mxGeometry x="2530" y="226.25" width="130" height="17.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Yw_AFh3IuJYw-cHhOf3B-27" value="localhost:3000/tweets/new" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="wpeGKx0uoAakzUZMrnBV-1">
+          <mxGeometry x="2530" y="278.75" width="130" height="17.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Yw_AFh3IuJYw-cHhOf3B-28" value="twitter/tweets/new" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="wpeGKx0uoAakzUZMrnBV-1">
+          <mxGeometry x="2530" y="296.25" width="130" height="17.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Yw_AFh3IuJYw-cHhOf3B-29" value="airbnb.com/listings/spain" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="wpeGKx0uoAakzUZMrnBV-1">
+          <mxGeometry x="2530" y="313.75" width="130" height="17.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Yw_AFh3IuJYw-cHhOf3B-30" value="google.com/search" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="wpeGKx0uoAakzUZMrnBV-1">
+          <mxGeometry x="2530" y="331.25" width="130" height="17.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Yw_AFh3IuJYw-cHhOf3B-31" value="Full URL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1" vertex="1" parent="wpeGKx0uoAakzUZMrnBV-1">
+          <mxGeometry x="2560" y="207.5" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Yw_AFh3IuJYw-cHhOf3B-33" value="/" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="wpeGKx0uoAakzUZMrnBV-1">
+          <mxGeometry x="2680" y="226.25" width="70" height="17.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Yw_AFh3IuJYw-cHhOf3B-34" value="Part that react-router cares about" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1" vertex="1" parent="wpeGKx0uoAakzUZMrnBV-1">
+          <mxGeometry x="2680" y="206.25" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Yw_AFh3IuJYw-cHhOf3B-37" value="/pageone" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="wpeGKx0uoAakzUZMrnBV-1">
+          <mxGeometry x="2680" y="243.75" width="70" height="17.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Yw_AFh3IuJYw-cHhOf3B-38" value="/posts/5" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="wpeGKx0uoAakzUZMrnBV-1">
+          <mxGeometry x="2680" y="261.25" width="70" height="17.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Yw_AFh3IuJYw-cHhOf3B-39" value="/tweets/new" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="wpeGKx0uoAakzUZMrnBV-1">
+          <mxGeometry x="2680" y="278.75" width="70" height="17.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Yw_AFh3IuJYw-cHhOf3B-40" value="/tweets/new" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="wpeGKx0uoAakzUZMrnBV-1">
+          <mxGeometry x="2680" y="296.25" width="70" height="17.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Yw_AFh3IuJYw-cHhOf3B-41" value="/listings/spain" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="wpeGKx0uoAakzUZMrnBV-1">
+          <mxGeometry x="2680" y="313.75" width="70" height="17.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Yw_AFh3IuJYw-cHhOf3B-42" value="/search" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="wpeGKx0uoAakzUZMrnBV-1">
+          <mxGeometry x="2680" y="330" width="70" height="17.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
