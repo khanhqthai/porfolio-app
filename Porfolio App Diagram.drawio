@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-03T22:30:14.595Z" agent="5.0 (Windows)" etag="4WnJ4YOurCF1Uct_0yxg" version="14.2.7" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-02-04T01:09:18.799Z" agent="5.0 (Windows)" etag="pHX7eQ45IanWVIvlhfwF" version="14.2.7" type="github" pages="8">
   <diagram id="-8Po2za0VV15nlukF8d9" name="Page-1">
     <mxGraphModel dx="2272" dy="2991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2168,7 +2168,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="EelrbuOWvnq0HwcqArGe" name="Redux">
-    <mxGraphModel dx="3119" dy="2516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3363" dy="2652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="swDkds0ZvY3LZWQCDxIj-0" />
         <mxCell id="swDkds0ZvY3LZWQCDxIj-1" parent="swDkds0ZvY3LZWQCDxIj-0" />
@@ -3438,58 +3438,58 @@
           <mxGeometry x="709.38" y="-950" width="150.62" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nsUvNCFr4tVepmpwpJUc-78" value="Components gets rendered onto the screen" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;fontSize=10;align=center;" parent="swDkds0ZvY3LZWQCDxIj-1" vertex="1">
-          <mxGeometry x="1000" y="-1040" width="330" height="30" as="geometry" />
+          <mxGeometry x="912.25" y="-1015" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nsUvNCFr4tVepmpwpJUc-79" value="" style="endArrow=classic;html=1;fontSize=10;" parent="swDkds0ZvY3LZWQCDxIj-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="990" y="-1040" as="sourcePoint" />
-            <mxPoint x="990" y="-710" as="targetPoint" />
+            <mxPoint x="902.25" y="-1015" as="sourcePoint" />
+            <mxPoint x="902.25" y="-685" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nsUvNCFr4tVepmpwpJUc-80" value="General Data Loading with Redux" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=0;sketch=0;fontSize=10;fontStyle=1" parent="swDkds0ZvY3LZWQCDxIj-1" vertex="1">
-          <mxGeometry x="1000" y="-1060" width="330" height="20" as="geometry" />
+          <mxGeometry x="912.25" y="-1035" width="330" height="20" as="geometry" />
         </mxCell>
         <mxCell id="nsUvNCFr4tVepmpwpJUc-81" value="Component&#39;s&amp;nbsp; &#39;componentDidMount&#39; lifecycle method gets called" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;fontSize=10;align=center;fontStyle=0" parent="swDkds0ZvY3LZWQCDxIj-1" vertex="1">
-          <mxGeometry x="1000" y="-1000" width="330" height="30" as="geometry" />
+          <mxGeometry x="912.25" y="-975" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nsUvNCFr4tVepmpwpJUc-82" value="We call action creator from &#39;componentDidMount&#39;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;fontSize=10;align=center;" parent="swDkds0ZvY3LZWQCDxIj-1" vertex="1">
-          <mxGeometry x="1000" y="-960" width="330" height="30" as="geometry" />
+          <mxGeometry x="912.25" y="-935" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nsUvNCFr4tVepmpwpJUc-84" value="Action creator runs code to make an API request" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;fontSize=10;align=center;" parent="swDkds0ZvY3LZWQCDxIj-1" vertex="1">
-          <mxGeometry x="1000" y="-920" width="330" height="30" as="geometry" />
+          <mxGeometry x="912.25" y="-895" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nsUvNCFr4tVepmpwpJUc-85" value="API responds with data" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;fontSize=10;align=center;" parent="swDkds0ZvY3LZWQCDxIj-1" vertex="1">
-          <mxGeometry x="1000" y="-876" width="330" height="30" as="geometry" />
+          <mxGeometry x="912.25" y="-851" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nsUvNCFr4tVepmpwpJUc-86" value="Action creator returns an &#39;action&#39; with the fetched data on the &#39;payload&#39; property" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;fontSize=10;align=center;" parent="swDkds0ZvY3LZWQCDxIj-1" vertex="1">
-          <mxGeometry x="1000" y="-832" width="330" height="30" as="geometry" />
+          <mxGeometry x="912.25" y="-807" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nsUvNCFr4tVepmpwpJUc-87" value="Some reducer sees the action, returns the data off the &quot;payload&quot;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;fontSize=10;align=center;" parent="swDkds0ZvY3LZWQCDxIj-1" vertex="1">
-          <mxGeometry x="1000" y="-790" width="330" height="30" as="geometry" />
+          <mxGeometry x="912.25" y="-765" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nsUvNCFr4tVepmpwpJUc-88" value="Because we generated some new state object, redux/react-redux cause our React app to be rerendered" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;fontSize=10;align=center;" parent="swDkds0ZvY3LZWQCDxIj-1" vertex="1">
-          <mxGeometry x="1000" y="-750" width="330" height="30" as="geometry" />
+          <mxGeometry x="912.25" y="-725" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nsUvNCFr4tVepmpwpJUc-89" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;shadow=1;glass=0;sketch=0;fontSize=10;align=center;flipH=1;" parent="swDkds0ZvY3LZWQCDxIj-1" vertex="1">
-          <mxGeometry x="1332.5" y="-1040" width="27.5" height="110" as="geometry" />
+          <mxGeometry x="1244.75" y="-1015" width="27.5" height="110" as="geometry" />
         </mxCell>
         <mxCell id="nsUvNCFr4tVepmpwpJUc-90" value="Components are generally responsible for fetching data they need by calling an action creator" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;fontSize=12;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="swDkds0ZvY3LZWQCDxIj-1" vertex="1">
-          <mxGeometry x="1360" y="-1020" width="200" height="65" as="geometry" />
+          <mxGeometry x="1272.25" y="-995" width="200" height="65" as="geometry" />
         </mxCell>
         <mxCell id="nsUvNCFr4tVepmpwpJUc-91" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;shadow=1;glass=0;sketch=0;fontSize=10;align=center;flipH=1;" parent="swDkds0ZvY3LZWQCDxIj-1" vertex="1">
-          <mxGeometry x="1332.5" y="-916" width="27.5" height="110" as="geometry" />
+          <mxGeometry x="1244.75" y="-891" width="27.5" height="110" as="geometry" />
         </mxCell>
         <mxCell id="nsUvNCFr4tVepmpwpJUc-92" value="Action creators are responsible for making API requests" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;fontSize=12;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="swDkds0ZvY3LZWQCDxIj-1" vertex="1">
-          <mxGeometry x="1360" y="-890" width="200" height="50" as="geometry" />
+          <mxGeometry x="1272.25" y="-865" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nsUvNCFr4tVepmpwpJUc-96" value="&lt;i&gt;This is where redux-thunk comes into play&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=0;sketch=0;fontSize=12;" parent="swDkds0ZvY3LZWQCDxIj-1" vertex="1">
-          <mxGeometry x="1382.5" y="-832" width="157.5" height="20" as="geometry" />
+          <mxGeometry x="1294.75" y="-807" width="157.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="nsUvNCFr4tVepmpwpJUc-97" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;shadow=1;glass=0;sketch=0;fontSize=10;align=center;flipH=1;size=0.5;" parent="swDkds0ZvY3LZWQCDxIj-1" vertex="1">
-          <mxGeometry x="1330" y="-790" width="27.5" height="70" as="geometry" />
+          <mxGeometry x="1242.25" y="-765" width="27.5" height="70" as="geometry" />
         </mxCell>
         <mxCell id="nsUvNCFr4tVepmpwpJUc-98" value="We get fetched data into a component by generating new state in our redux store, then getting that into our component through mapStateToProps" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;fontSize=12;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="swDkds0ZvY3LZWQCDxIj-1" vertex="1">
-          <mxGeometry x="1359.25" y="-790" width="228.75" height="80" as="geometry" />
+          <mxGeometry x="1271.5" y="-765" width="228.75" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Uajv3HFZrpYr5GTcaXji-3" value="" style="group" parent="swDkds0ZvY3LZWQCDxIj-1" vertex="1" connectable="0">
           <mxGeometry x="1501.25" y="-1605" width="220" height="60" as="geometry" />
@@ -4031,6 +4031,99 @@
         </mxCell>
         <mxCell id="cJUpEjgpW28wwgrWQLRK-22" value="{...state, age: undefined}&lt;br&gt;or _.omit(state, &#39;age&#39;)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="swDkds0ZvY3LZWQCDxIj-1">
           <mxGeometry x="4560" y="-390" width="300" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="cJUpEjgpW28wwgrWQLRK-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="swDkds0ZvY3LZWQCDxIj-1" source="cJUpEjgpW28wwgrWQLRK-52" target="cJUpEjgpW28wwgrWQLRK-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cJUpEjgpW28wwgrWQLRK-52" value="Fetch Posts" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;fontSize=10;align=center;" vertex="1" parent="swDkds0ZvY3LZWQCDxIj-1">
+          <mxGeometry x="1360" y="-2130" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cJUpEjgpW28wwgrWQLRK-53" value="" style="endArrow=classic;html=1;fontSize=10;" edge="1" parent="swDkds0ZvY3LZWQCDxIj-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1350" y="-2130" as="sourcePoint" />
+            <mxPoint x="1350" y="-1800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cJUpEjgpW28wwgrWQLRK-54" value="Approach: General Flow of App" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=0;sketch=0;fontSize=10;fontStyle=1" vertex="1" parent="swDkds0ZvY3LZWQCDxIj-1">
+          <mxGeometry x="1360" y="-2150" width="330" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cJUpEjgpW28wwgrWQLRK-55" value="Show posts in PostList" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;fontSize=10;align=center;fontStyle=0" vertex="1" parent="swDkds0ZvY3LZWQCDxIj-1">
+          <mxGeometry x="1358.62" y="-2065" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cJUpEjgpW28wwgrWQLRK-56" value="Each element in Postlist shows UserHeader" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;fontSize=10;align=center;" vertex="1" parent="swDkds0ZvY3LZWQCDxIj-1">
+          <mxGeometry x="1360" y="-2027.5" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cJUpEjgpW28wwgrWQLRK-57" value="Userheader is given ID of user to show" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;fontSize=10;align=center;" vertex="1" parent="swDkds0ZvY3LZWQCDxIj-1">
+          <mxGeometry x="1360" y="-1980" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cJUpEjgpW28wwgrWQLRK-58" value="Each UserHeader attemps to fetch its user" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;fontSize=10;align=center;" vertex="1" parent="swDkds0ZvY3LZWQCDxIj-1">
+          <mxGeometry x="1360" y="-1935" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cJUpEjgpW28wwgrWQLRK-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="swDkds0ZvY3LZWQCDxIj-1" source="cJUpEjgpW28wwgrWQLRK-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1405.7931034482763" y="-1845" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cJUpEjgpW28wwgrWQLRK-60" value="Fetch User id 1" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;fontSize=10;align=center;" vertex="1" parent="swDkds0ZvY3LZWQCDxIj-1">
+          <mxGeometry x="1359" y="-1892" width="93" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cJUpEjgpW28wwgrWQLRK-61" value="Show users in each UserHeader" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;fontSize=10;align=center;" vertex="1" parent="swDkds0ZvY3LZWQCDxIj-1">
+          <mxGeometry x="1360" y="-1840" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cJUpEjgpW28wwgrWQLRK-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="swDkds0ZvY3LZWQCDxIj-1" source="cJUpEjgpW28wwgrWQLRK-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1529.241379310345" y="-1845" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cJUpEjgpW28wwgrWQLRK-63" value="Fetch User id 2" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;fontSize=10;align=center;" vertex="1" parent="swDkds0ZvY3LZWQCDxIj-1">
+          <mxGeometry x="1483" y="-1892" width="93" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cJUpEjgpW28wwgrWQLRK-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="swDkds0ZvY3LZWQCDxIj-1" source="cJUpEjgpW28wwgrWQLRK-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1642.3448275862074" y="-1845" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cJUpEjgpW28wwgrWQLRK-65" value="Fetch User id 3" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;fontSize=10;align=center;" vertex="1" parent="swDkds0ZvY3LZWQCDxIj-1">
+          <mxGeometry x="1596.18" y="-1892" width="93" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cJUpEjgpW28wwgrWQLRK-67" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="swDkds0ZvY3LZWQCDxIj-1" source="nsUvNCFr4tVepmpwpJUc-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1120" y="-1810" as="sourcePoint" />
+            <mxPoint x="1350" y="-1910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cJUpEjgpW28wwgrWQLRK-70" value="Use Lodash Memoize.&lt;br&gt;known issues: we can only retrieve the data once.&amp;nbsp; If data is updated at the API source, memoize won&#39;t be able to pull it.&amp;nbsp; To solve we can create the same API function without using memoize" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="swDkds0ZvY3LZWQCDxIj-1">
+          <mxGeometry x="1572.68" y="-960" width="140" height="152.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cJUpEjgpW28wwgrWQLRK-71" value="&lt;b&gt;Two approaches to reducing API calls &lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="swDkds0ZvY3LZWQCDxIj-1">
+          <mxGeometry x="1650" y="-985" width="270" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cJUpEjgpW28wwgrWQLRK-72" value="fetchPostsAndUsers()" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="swDkds0ZvY3LZWQCDxIj-1">
+          <mxGeometry x="1760" y="-903.25" width="130" height="31.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cJUpEjgpW28wwgrWQLRK-73" value="Call &#39;fetchPosts&#39;" style="rounded=0;whiteSpace=wrap;html=1;align=center;shadow=1;" vertex="1" parent="swDkds0ZvY3LZWQCDxIj-1">
+          <mxGeometry x="1920" y="-945" width="230" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="cJUpEjgpW28wwgrWQLRK-74" value="Get list posts" style="rounded=0;whiteSpace=wrap;html=1;align=center;shadow=1;" vertex="1" parent="swDkds0ZvY3LZWQCDxIj-1">
+          <mxGeometry x="1920" y="-920" width="230" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="cJUpEjgpW28wwgrWQLRK-75" value="Find all unique userId&#39;s from list of posts" style="rounded=0;whiteSpace=wrap;html=1;align=center;shadow=1;" vertex="1" parent="swDkds0ZvY3LZWQCDxIj-1">
+          <mxGeometry x="1920" y="-895" width="230" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="cJUpEjgpW28wwgrWQLRK-76" value="Iterate over unique userId&#39;s" style="rounded=0;whiteSpace=wrap;html=1;align=center;shadow=1;" vertex="1" parent="swDkds0ZvY3LZWQCDxIj-1">
+          <mxGeometry x="1920" y="-870" width="230" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="cJUpEjgpW28wwgrWQLRK-77" value="Call &#39;fetchUser&#39; with each userId" style="rounded=0;whiteSpace=wrap;html=1;align=center;shadow=1;" vertex="1" parent="swDkds0ZvY3LZWQCDxIj-1">
+          <mxGeometry x="1920" y="-845" width="230" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="cJUpEjgpW28wwgrWQLRK-78" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;shadow=1;align=center;" vertex="1" parent="swDkds0ZvY3LZWQCDxIj-1">
+          <mxGeometry x="1890" y="-947" width="20" height="117" as="geometry" />
+        </mxCell>
+        <mxCell id="cJUpEjgpW28wwgrWQLRK-79" value="" style="endArrow=none;dashed=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="swDkds0ZvY3LZWQCDxIj-1" source="nsUvNCFr4tVepmpwpJUc-55" target="cJUpEjgpW28wwgrWQLRK-71">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1330" y="-1050" as="sourcePoint" />
+            <mxPoint x="1380" y="-1100" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
