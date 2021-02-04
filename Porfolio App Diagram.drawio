@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-04T03:31:44.991Z" agent="5.0 (Windows)" etag="ciCm9kmwVnW7v9N0rHBX" version="14.2.7" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-02-04T04:08:05.069Z" agent="5.0 (Windows)" etag="DZpewdptf3K02QnoOCTT" version="14.2.7" type="github" pages="9">
   <diagram id="-8Po2za0VV15nlukF8d9" name="Page-1">
     <mxGraphModel dx="2272" dy="2991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -4129,7 +4129,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="P75ww7Ji9qlLMU_jSR9o" name="khanh.tv">
-    <mxGraphModel dx="981" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2370" dy="1318" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="wpeGKx0uoAakzUZMrnBV-0" />
         <mxCell id="wpeGKx0uoAakzUZMrnBV-1" parent="wpeGKx0uoAakzUZMrnBV-0" />
@@ -4420,6 +4420,24 @@
         </mxCell>
         <mxCell id="hM0wWYtOKhBfm_7vQ9_r-22" value="Delete Stream" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;fontSize=16;fontStyle=1" vertex="1" parent="wpeGKx0uoAakzUZMrnBV-1">
           <mxGeometry x="2803.33" y="540" width="123.33" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hM0wWYtOKhBfm_7vQ9_r-29" value="Need to be able to navigate around to separate pages in out app" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;strokeWidth=2;fontSize=16;align=center;" vertex="1" parent="wpeGKx0uoAakzUZMrnBV-1">
+          <mxGeometry x="1456.66" y="220" width="470" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="hM0wWYtOKhBfm_7vQ9_r-30" value="App Challenges" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;fontSize=16;fontStyle=1" vertex="1" parent="wpeGKx0uoAakzUZMrnBV-1">
+          <mxGeometry x="1456.66" y="195" width="470" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hM0wWYtOKhBfm_7vQ9_r-31" value="Need to allow user to login/logout" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;strokeWidth=2;fontSize=16;align=center;" vertex="1" parent="wpeGKx0uoAakzUZMrnBV-1">
+          <mxGeometry x="1456.66" y="265" width="470" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="hM0wWYtOKhBfm_7vQ9_r-32" value="Need to handle forms in Redux" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;strokeWidth=2;fontSize=16;align=center;" vertex="1" parent="wpeGKx0uoAakzUZMrnBV-1">
+          <mxGeometry x="1456.66" y="312.5" width="470" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="hM0wWYtOKhBfm_7vQ9_r-33" value="Need to master CRUD operations in React/Redux" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;strokeWidth=2;fontSize=16;align=center;" vertex="1" parent="wpeGKx0uoAakzUZMrnBV-1">
+          <mxGeometry x="1456.66" y="360" width="470" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="hM0wWYtOKhBfm_7vQ9_r-34" value="Need good error handling" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;strokeWidth=2;fontSize=16;align=center;" vertex="1" parent="wpeGKx0uoAakzUZMrnBV-1">
+          <mxGeometry x="1456.66" y="405" width="470" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
