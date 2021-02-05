@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-05T02:26:48.458Z" agent="5.0 (Windows)" etag="4I4yxzlS7-ZG6Y-y3__k" version="14.2.7" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-02-05T07:26:26.473Z" agent="5.0 (Windows)" etag="Z0sB_hT9XDkKOVzHizPK" version="14.2.7" type="github" pages="9">
   <diagram id="-8Po2za0VV15nlukF8d9" name="Page-1">
     <mxGraphModel dx="2272" dy="2991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -4960,6 +4960,15 @@
         </mxCell>
         <mxCell id="4MpBMamh_aAqb-ZRCqr2-106" value="Make sure the lib gets called any time the user clicks on the &#39;Login with Google&#39; button" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;fontSize=10;align=center;" vertex="1" parent="wpeGKx0uoAakzUZMrnBV-1">
           <mxGeometry x="2440" y="1130" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4MpBMamh_aAqb-ZRCqr2-109" value="" style="endArrow=none;dashed=1;html=1;strokeColor=#000000;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="wpeGKx0uoAakzUZMrnBV-1" source="4MpBMamh_aAqb-ZRCqr2-105" target="4MpBMamh_aAqb-ZRCqr2-110">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2890" y="970" as="sourcePoint" />
+            <mxPoint x="2880" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4MpBMamh_aAqb-ZRCqr2-110" value="Google does not have an npm package, we need download it " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wpeGKx0uoAakzUZMrnBV-1">
+          <mxGeometry x="2860" y="1080" width="210" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
