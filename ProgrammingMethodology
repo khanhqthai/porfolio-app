@@ -1,1 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2021-09-29T17:50:04.465Z" agent="5.0 (Windows)" version="14.5.1" etag="56mq57tUdU8hnAQ1Rhl_" type="github"><diagram id="zQ4-V3rjiliO4CggKamS">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-29T23:34:31.532Z" agent="5.0 (Windows)" etag="e0OupvdZPRnnyp_CX_u0" version="14.5.1" type="github">
+  <diagram id="zQ4-V3rjiliO4CggKamS" name="Page-1">
+    <mxGraphModel dx="677" dy="371" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WEfxWDvdRRLfGt2QhUMX-3" value="Karel The Robot Class Diagram&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="240" y="160" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WEfxWDvdRRLfGt2QhUMX-9" value="Karel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="200" width="170" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="WEfxWDvdRRLfGt2QhUMX-10" value="- beeperBag : Beeper" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WEfxWDvdRRLfGt2QhUMX-9">
+          <mxGeometry y="26" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WEfxWDvdRRLfGt2QhUMX-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="WEfxWDvdRRLfGt2QhUMX-9">
+          <mxGeometry y="52" width="170" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="WEfxWDvdRRLfGt2QhUMX-12" value="+ move(Void): Void&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WEfxWDvdRRLfGt2QhUMX-9">
+          <mxGeometry y="60" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WEfxWDvdRRLfGt2QhUMX-18" value="+ turnLeft(Void): Void&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WEfxWDvdRRLfGt2QhUMX-9">
+          <mxGeometry y="86" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WEfxWDvdRRLfGt2QhUMX-19" value="+ pickBeeper(Beeper): Void&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WEfxWDvdRRLfGt2QhUMX-9">
+          <mxGeometry y="112" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WEfxWDvdRRLfGt2QhUMX-20" value="+ putBeeper(Beeper): Beeper&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WEfxWDvdRRLfGt2QhUMX-9">
+          <mxGeometry y="138" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WEfxWDvdRRLfGt2QhUMX-22" value="" style="labelPosition=right;align=left;strokeWidth=1;shape=mxgraph.mockup.markup.curlyBrace;html=1;shadow=0;dashed=0;strokeColor=#999999;direction=north;" vertex="1" parent="1">
+          <mxGeometry x="280" y="260" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WEfxWDvdRRLfGt2QhUMX-23" value="Methods(+)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="300" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WEfxWDvdRRLfGt2QhUMX-24" value="" style="labelPosition=right;align=left;strokeWidth=1;shape=mxgraph.mockup.markup.curlyBrace;html=1;shadow=0;dashed=0;strokeColor=#999999;direction=north;" vertex="1" parent="1">
+          <mxGeometry x="280" y="230" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WEfxWDvdRRLfGt2QhUMX-25" value="Attributes(-)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="230" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WEfxWDvdRRLfGt2QhUMX-26" value="Java" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="400" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WEfxWDvdRRLfGt2QhUMX-31" value="For Loop" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="430" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WEfxWDvdRRLfGt2QhUMX-32" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="450" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WEfxWDvdRRLfGt2QhUMX-29" value="&lt;div align=&quot;left&quot;&gt;for ( int i=0; i&amp;lt;3; i++){&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; turnLeft();&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;}&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="450" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WEfxWDvdRRLfGt2QhUMX-35" value="While Loop" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="530" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WEfxWDvdRRLfGt2QhUMX-36" value="&lt;div align=&quot;left&quot;&gt;while(&amp;nbsp; frontIsClear() ){&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; move();&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="310" y="550" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WEfxWDvdRRLfGt2QhUMX-37" value="IF statement" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="630" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WEfxWDvdRRLfGt2QhUMX-38" value="&lt;div&gt;if (&amp;nbsp; beepersPresent() ){&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; pickBeeper();&lt;br&gt;&lt;/div&gt;&lt;div&gt;} else {&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; putBeeper();&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="310" y="650" width="170" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
