@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-29T23:34:31.532Z" agent="5.0 (Windows)" etag="e0OupvdZPRnnyp_CX_u0" version="14.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-01T05:18:08.191Z" agent="5.0 (Windows)" etag="ymun0UbUAhfUjfOTp438" version="14.5.1" type="github">
   <diagram id="zQ4-V3rjiliO4CggKamS" name="Page-1">
     <mxGraphModel dx="677" dy="371" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -63,6 +63,54 @@
         </mxCell>
         <mxCell id="WEfxWDvdRRLfGt2QhUMX-38" value="&lt;div&gt;if (&amp;nbsp; beepersPresent() ){&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; pickBeeper();&lt;br&gt;&lt;/div&gt;&lt;div&gt;} else {&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; putBeeper();&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="310" y="650" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WEfxWDvdRRLfGt2QhUMX-39" value="Common Errors" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="760" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WEfxWDvdRRLfGt2QhUMX-40" value="&lt;div align=&quot;left&quot;&gt;1. infinite loop&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;2. off by one bug&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;3. &lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="780" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WEfxWDvdRRLfGt2QhUMX-41" value="&lt;div align=&quot;left&quot;&gt;1. Write text using programming language called java&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;2. text files have an extension .java&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;3.&amp;nbsp; *.java file express what you want to do&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;4.&amp;nbsp; *.java get converted into binary( *.class files are created for each class inside a *.java file)&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="880" width="520" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WEfxWDvdRRLfGt2QhUMX-43" value="&lt;div&gt;Text&lt;/div&gt;&lt;div&gt;*.java&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="880" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WEfxWDvdRRLfGt2QhUMX-45" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="WEfxWDvdRRLfGt2QhUMX-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="1030" as="sourcePoint" />
+            <mxPoint x="350" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WEfxWDvdRRLfGt2QhUMX-46" value="Javac(JDK)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="355" y="960" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WEfxWDvdRRLfGt2QhUMX-47" value="Javac is computer program part of the JDK that converts*.java files in binary (*.class files)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="960" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WEfxWDvdRRLfGt2QhUMX-48" value="" style="endArrow=none;dashed=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WEfxWDvdRRLfGt2QhUMX-46" target="WEfxWDvdRRLfGt2QhUMX-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="1030" as="sourcePoint" />
+            <mxPoint x="580" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WEfxWDvdRRLfGt2QhUMX-49" value="&lt;div&gt;Binary&lt;br&gt;*.class&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1000" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WEfxWDvdRRLfGt2QhUMX-50" value="&lt;div&gt;Computer &lt;br&gt;&lt;/div&gt;&lt;div&gt;Program&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1110" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WEfxWDvdRRLfGt2QhUMX-51" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WEfxWDvdRRLfGt2QhUMX-49" target="WEfxWDvdRRLfGt2QhUMX-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380.24" y="1070" as="sourcePoint" />
+            <mxPoint x="380" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WEfxWDvdRRLfGt2QhUMX-52" value="JVM(Java Virtual Machine)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1070" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WEfxWDvdRRLfGt2QhUMX-53" value="*.class files are then ran by the JVM.&amp;nbsp; why are virtual machine? because we can guarantee the program can ran " style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1070" width="280" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
