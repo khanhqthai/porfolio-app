@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-01T05:18:08.191Z" agent="5.0 (Windows)" etag="ymun0UbUAhfUjfOTp438" version="14.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-01T15:47:11.528Z" agent="5.0 (Windows)" etag="i1dPLkC4WcNksRFCw8LK" version="14.5.1" type="github">
   <diagram id="zQ4-V3rjiliO4CggKamS" name="Page-1">
     <mxGraphModel dx="677" dy="371" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -109,8 +109,17 @@
         <mxCell id="WEfxWDvdRRLfGt2QhUMX-52" value="JVM(Java Virtual Machine)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="360" y="1070" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="WEfxWDvdRRLfGt2QhUMX-53" value="*.class files are then ran by the JVM.&amp;nbsp; why are virtual machine? because we can guarantee the program can ran " style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="520" y="1070" width="280" height="40" as="geometry" />
+        <mxCell id="WEfxWDvdRRLfGt2QhUMX-53" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;JVM is part of the JRE(Java Runtime Environment).&amp;nbsp; JRE runs the JVM, which in turn runs the binary *.class files.&lt;br&gt;&lt;/div&gt;&lt;div&gt;*.class files are then ran by the JVM.&amp;nbsp; why use virtual machine? because we can guarantee the program runs in the same environment every time, despite being in varying PC or Mac.&lt;/div&gt;&lt;div&gt;&lt;br&gt; &lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1080" width="370" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WEfxWDvdRRLfGt2QhUMX-54" value="" style="endArrow=none;dashed=1;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WEfxWDvdRRLfGt2QhUMX-52" target="WEfxWDvdRRLfGt2QhUMX-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="1170" as="sourcePoint" />
+            <mxPoint x="490" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WEfxWDvdRRLfGt2QhUMX-55" value="&lt;div align=&quot;left&quot;&gt;Java has eight primitive types:&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;ol&gt;&lt;li&gt;int&lt;/li&gt;&lt;li&gt;short&lt;/li&gt;&lt;li&gt;long&lt;/li&gt;&lt;li&gt;double&lt;/li&gt;&lt;li&gt;float&lt;/li&gt;&lt;li&gt;char&lt;/li&gt;&lt;li&gt;boolean &lt;br&gt;&lt;/li&gt;&lt;li&gt;byte&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1220" width="170" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
