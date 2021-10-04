@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-02T23:56:42.067Z" agent="5.0 (Windows)" etag="b2-_AqYpC_s0zZWAItQ4" version="14.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-04T16:50:02.453Z" agent="5.0 (Windows)" etag="nUUulUdqrqathcUD8sCa" version="14.5.1" type="github">
   <diagram id="zQ4-V3rjiliO4CggKamS" name="Page-1">
     <mxGraphModel dx="1185" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -126,6 +126,9 @@
         </mxCell>
         <mxCell id="WEfxWDvdRRLfGt2QhUMX-57" value="&lt;div&gt;&lt;b&gt;Java Classes and Objects&lt;/b&gt;&lt;/div&gt;&lt;div&gt;in Java there can only be only&amp;nbsp; one public class in each .java file, however we can have as many private class as desired.&amp;nbsp; The java class name will correspond with the file .java file name.&amp;nbsp; IE Fruit class will have Fruit.java file.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Classes can contain 2 things.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. Data - which is the current state of the object.&lt;/div&gt;&lt;div&gt;2. Subroutines (methods) - or behaviors&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;We call data in a Class Instances variables(Data or &quot;state&quot;)&lt;/div&gt;&lt;div&gt;We call subroutines in a class a method&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="320" y="1720" width="580" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="WEfxWDvdRRLfGt2QhUMX-58" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;Java is pass-by-value language&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Java is always &lt;strong&gt;pass-by-value&lt;/strong&gt;.  Unfortunately, when we deal with objects we are really dealing with object-handles called &lt;em&gt;references&lt;/em&gt; which are passed-by-value as well.  This terminology and semantics easily confuse many beginners.&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;https://stackoverflow.com/questions/40480/is-java-pass-by-reference-or-pass-by-value&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1960" width="660" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
