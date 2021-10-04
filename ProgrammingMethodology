@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-04T18:18:16.254Z" agent="5.0 (Windows)" etag="KdtihdeCr7Ahoj8KSEIv" version="14.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-04T20:56:40.139Z" agent="5.0 (Windows)" etag="DC3DKooS-PXiibZvAkCX" version="14.5.1" type="github">
   <diagram id="zQ4-V3rjiliO4CggKamS" name="Page-1">
     <mxGraphModel dx="1185" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -135,6 +135,9 @@
         </mxCell>
         <mxCell id="WEfxWDvdRRLfGt2QhUMX-60" value="&lt;div&gt;&lt;b&gt;static vs instance&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;static variables/method are Class variables/method.&amp;nbsp; Instances do not have copy of the static variable, they get access to them through the class.&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;static variable and method belong to the class.&amp;nbsp; static method and variable can access other static variable/method but not instance variable or method&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;What do we use static for?&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;If we don&#39;t deal with instance data, than we can make it a static variable/method&lt;/li&gt;&lt;li&gt;If have constant data(..use final(java&#39;s modified for constant) and static)&lt;br&gt;&lt;/li&gt;&lt;li&gt;if we want data/methods to be shared across all class instances&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="320" y="2300" width="530" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="WEfxWDvdRRLfGt2QhUMX-61" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;StringBuilder&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. Strings are immutable&lt;/div&gt;&lt;div&gt;2. Use string builder to be more efficient when constructing a string &lt;br&gt;&lt;/div&gt;&lt;div&gt;3. StringBuilder returns a reference to itself, which means we can use method chaining when building the string&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Use &lt;b&gt;StringBuffer &lt;/b&gt;-- which is the same as &lt;b&gt;StringBuilder&lt;/b&gt; but thread safe&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="2520" width="500" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
