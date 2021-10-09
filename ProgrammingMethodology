@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-08T17:05:48.950Z" agent="5.0 (Windows)" etag="X-ClH0TqtAEgeSTtZCRR" version="14.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-09T20:04:36.312Z" agent="5.0 (Windows)" etag="9St2dqJsaXjaQtWGLABD" version="14.5.1" type="github">
   <diagram id="zQ4-V3rjiliO4CggKamS" name="Page-1">
-    <mxGraphModel dx="1422" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -157,7 +157,7 @@
         <mxCell id="PG2JpeuL23cPL4hn7i_I-6" value="&lt;div&gt;&lt;b&gt;The equals() Method.&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;&lt;b&gt;equals method will compare contents &lt;br&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;while == compares the memory address&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;keep this is mind as you compare thing in Java&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Java often times will optimize memory usage:&lt;br&gt;String text1 = &quot;hello&quot;;&lt;br&gt;String text2 = &quot;hello&quot;;&lt;br&gt;one would expect text1 and text2 to have different memory address, but Java will optimize and have both text1 and text2 point to the same memory&lt;br&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="315" y="4080" width="755" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="PG2JpeuL23cPL4hn7i_I-7" value="&lt;div&gt;&lt;b&gt;Innver Classes:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;Non-static inner classes are use for grouping functionality, and you inner class to have access to instant variable in the outer class.&lt;/li&gt;&lt;li&gt;static inner classes is used when you want a normal that is not associated with the outer class, but you want it to be grouped with it.&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;NOTE: you can also declare classes inside of methods...you probably would want to do this, if you don&#39;t want to use anonymous class.&lt;br&gt;Because the declared class will only exists inside the method body(between brackets)&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="PG2JpeuL23cPL4hn7i_I-7" value="&lt;div&gt;&lt;b&gt;Innver Classes:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;Non-static inner classes are use for grouping functionality, and you inner class to have access to instant variable in the outer class.&lt;/li&gt;&lt;li&gt;static inner classes is used when you want a normal that is not associated with the outer class, but you want it to be grouped with it.&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="310" y="4260" width="750" height="180" as="geometry" />
         </mxCell>
       </root>
