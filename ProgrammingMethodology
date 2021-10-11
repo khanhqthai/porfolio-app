@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-10T19:50:44.628Z" agent="5.0 (Windows)" etag="twS_vKhePtYZKh2UZ3yU" version="14.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-11T17:58:17.126Z" agent="5.0 (Windows)" etag="8bMiiLiQSDxNV6t8nh-9" version="14.5.1" type="github">
   <diagram id="zQ4-V3rjiliO4CggKamS" name="Page-1">
     <mxGraphModel dx="1185" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -161,7 +161,10 @@
           <mxGeometry x="310" y="4260" width="750" height="120" as="geometry" />
         </mxCell>
         <mxCell id="PG2JpeuL23cPL4hn7i_I-8" value="&lt;div&gt;&lt;b&gt;Serialization: Saving Objects to files&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Serialization&lt;/b&gt; - turning an Object into binary form(binary data)&lt;/div&gt;&lt;div&gt;&lt;b&gt;De-serialization&lt;/b&gt; - taking binary data and turning it back into an Object&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="310" y="4410" width="760" height="150" as="geometry" />
+          <mxGeometry x="310" y="4410" width="760" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="PG2JpeuL23cPL4hn7i_I-9" value="&lt;div&gt;&lt;b&gt;Using custom Objects in Sets and as Keys in Maps:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;By default Sets and Maps will add Keys base on address memory&amp;nbsp; and not contents of Object. &lt;br&gt;&lt;/div&gt;&lt;div&gt;So if you add two Objects with the same data, Sets and Maps will consider them unique because they are different memory address.&lt;/div&gt;&lt;div&gt;In order to get the intended behavior we want, we will need to override the &lt;b&gt;hashCode() method&lt;/b&gt; with our desired fields that will be used for comparison.&amp;nbsp;&amp;nbsp; We will also need to override the &lt;b&gt;equals() method&lt;/b&gt; too.&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="4520" width="770" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
